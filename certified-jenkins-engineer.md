@@ -2,21 +2,21 @@
 
 > The outline is copied from [Certified Jenkins Engineer (CJE) 2017 Study Guide](https://www.cloudbees.com/sites/default/files/cje-study-guide-2017.pdf). The rest of information is taken from [Jenkins User Documentation](https://jenkins.io/doc/).
 
-_The Certified Jenkins Engineer (CJE) exam consists of 60 multiple-choice questions
-testing knowledge of open-source Jenkins._
+The Certified Jenkins Engineer (CJE) exam consists of 60 multiple-choice questions
+testing knowledge of open-source Jenkins.
 
 ## Introduction
 
-_This document is intended to help you prepare for the Certified Jenkins Engineer (CJE)
-exam._
+This document is intended to help you prepare for the Certified Jenkins Engineer (CJE)
+exam.
 
-_The exam consists of 60 multiple-choice questions, divided into 4 sections, which will
-test your skills as a Jenkins Engineer._
+The exam consists of 60 multiple-choice questions, divided into 4 sections, which will
+test your skills as a Jenkins Engineer.
 
-_In this guide, you will find a list of the topics tested on the exam, links to external
-references, and sample questions._
+In this guide, you will find a list of the topics tested on the exam, links to external
+references, and sample questions.
 
-_Main differences between 2016 and 2017 certification exams:_
+Main differences between 2016 and 2017 certification exams:
 
 * Questions about open-source Jenkins are now based on Jenkins 2.19.4
 * Pipeline related questions upgraded to the latest syntax coming with the version 2.4
@@ -29,34 +29,32 @@ for details)
 
 ## Structure
 
-_This exam is comprised of 4 sections:_
+This exam is comprised of 4 sections:
 
 1. Key CI/CD/Jenkins concepts
 1. Jenkins usage
 1. Building Continuous Delivery (CD) Pipelines
 1. CD-as-code best practices
 
-_All questions are based on version [2.19.4](https://jenkins.io/changelog-stable/#v2.19.4) [new] of the Jenkins core._
+All questions are based on version [2.19.4](https://jenkins.io/changelog-stable/#v2.19.4) [new] of the Jenkins core.
 
-_All questions are based on an out-of-the-box standard installation of Jenkins ("base"
-Jenkins), with the default recommended plugin set installed ("Suggested plugins")._
+All questions are based on an out-of-the-box standard installation of Jenkins ("base"
+Jenkins), with the default recommended plugin set installed ("Suggested plugins").
 
-_See section "Plugins" for more information._
+See section "Plugins" for more information.
 
 > NOTE: On the exam, questions are presented in random order, not in sections.
 
 ## Plugins
 
-_Questions in sections 1–4 primarily cover questions about a "base" Jenkins installation,
+Questions in sections 1–4 primarily cover questions about a "base" Jenkins installation,
 but knowledge of the "suggested" plugins will also be covered. Candidates are expected
-to know the functionality/uses of these plugins but will not be tested on detailed usage._
+to know the functionality/uses of these plugins but will not be tested on detailed usage.
 
-_[new] The "suggested" plugins are the default plugins installed by the "Setup Wizard" on
-a fresh new Jenkins installation. You can find the exhaustive list, bound to a fixed Jenkins
-version, by following this link: [Jenkins 2.19.4 suggested plugin list](https://github.com/jenkinsci/jenkins/blob/jenkins-2.19.4/core/src/main/resources/jenkins/install/platform-plugins.json)._
+[new] The "suggested" plugins are the default plugins installed by the "Setup Wizard" on
+a fresh new Jenkins installation. You can find the exhaustive list, bound to a fixed Jenkins version, by following this link: [Jenkins 2.19.4 suggested plugin list](https://github.com/jenkinsci/jenkins/blob/jenkins-2.19.4/core/src/main/resources/jenkins/install/platform-plugins.json).
 
-_[new] Please note that the "[Pipeline Plugin](https://plugins.jenkins.io/workflow-aggregator)" is itself an aggregation of plugins
-implementing the Pipeline and related features. It includes the following capabilities:_
+[new] Please note that the "[Pipeline Plugin](https://plugins.jenkins.io/workflow-aggregator)" is itself an aggregation of plugins implementing the Pipeline and related features. It includes the following capabilities:
 
 * [Pipeline Multibranch](https://wiki.jenkins-ci.org/display/JENKINS/Pipeline+Multibranch+Plugin)
 * [Pipeline Shared Groovy Libraries](https://wiki.jenkins-ci.org/display/JENKINS/Pipeline+Shared+Groovy+Libraries+Plugin)
@@ -64,7 +62,7 @@ implementing the Pipeline and related features. It includes the following capabi
 
 ## Terminology
 
-_Please also note the following:_
+Please also note the following:
 
 * SCM stands for “source code management” unless otherwise specified.
 * Pipeline refers to the job type created by the Pipeline plugin (formerly known as the
@@ -81,8 +79,9 @@ of specific plugins (e.g., “Build Pipeline plugin”).
 
 ## 1. Key CI/CD/Jenkins Concepts - 18%
 
-_This topic comprises approximately 18% of the exam. Questions cover the following
-topics:_
+This topic comprises approximately 18% of the exam. Questions cover the following
+topics:
+
 * Continuous Delivery/Continuous Integration Concepts
   * Define continuous integration, continuous delivery, continuous deployment
   * Difference between CI and CD
@@ -193,6 +192,7 @@ These online resources provide entry points to understanding the above topics:
 
 This topic comprises approximately 23% of the exam. Questions cover the following
 topics:
+
 * Jobs
   * Organizing jobs in Jenkins
   * Parameterized jobs
@@ -244,7 +244,7 @@ topics:
   * Making basic updates to jobs and build scripts
   * Troubleshooting specific problems from build and test failure alerts
 
-_These online resources provide entry points to understanding the above topics:_
+These online resources provide entry points to understanding the above topics:
 
 * https://wiki.jenkins-ci.org
   * [Distributed builds](https://wiki.jenkins-ci.org/display/JENKINS/Distributed+builds)
@@ -255,8 +255,8 @@ _These online resources provide entry points to understanding the above topics:_
 
 ## 3. Building Continuous Delivery (CD) Pipelines - 16%
 
-_This topic comprises approximately 16% of the exam. Questions cover the following
-topics:_
+This topic comprises approximately 16% of the exam. Questions cover the following
+topics:
 
 * Pipeline Concepts
   * Value stream mapping for CD pipelines
@@ -304,7 +304,7 @@ information, etc.)
   * Interaction with Folders and Repository scanning
   * Security and Groovy sandbox
 
-_These online resources provide entry points to understanding the above topics:_
+These online resources provide entry points to understanding the above topics:
 
 * https://jenkins.io/ [new]
   * [Handbook](https://jenkins.io/doc/book/) [new]
@@ -331,8 +331,8 @@ _These online resources provide entry points to understanding the above topics:_
 
 ## 4. CD-as-Code Best Practices - 10%
 
-_This topic comprises approximately 10% of the exam. Questions cover the following
-topics:_
+This topic comprises approximately 10% of the exam. Questions cover the following
+topics:
 
 * Distributed builds architecture
 * Fungible (replaceable) agents
@@ -342,7 +342,7 @@ topics:_
 * Traceability
 * High availability
 
-_These online resources provide entry points to understanding the above topics:_
+These online resources provide entry points to understanding the above topics:
 
 * http://go.cloudbees.com
   * [Cookbook](https://go.cloudbees.com/docs/cloudbees-documentation/cookbook/book.html)
@@ -357,82 +357,80 @@ _These online resources provide entry points to understanding the above topics:_
 
 1. By definition, what does a Continuous Delivery pipeline consist of?
 
-_A. Backlog items_
+_`A.` Backlog items_
 
-_B. Artifacts_
+_`B.` Artifacts_
 
-_C. Stages_
+_`C.` Stages_
 
-_D. Tickets_
+_`D.` Tickets_
 
-_E. Commitments_
+_`E.` Commitments_
 
 
 2. You need to execute a shell script (/usr/bin/prepare-env) just before a Linux
 agent is started. How do you achieve this?
 
-_A. Use the "Suffix Start Agent Command" configuration option on the agent
+_`A.` Use the "Suffix Start Agent Command" configuration option on the agent
 configuration._
 
-_B. Use the "Prefix Start Agent Command" configuration option on the agent
+_`B.` Use the "Prefix Start Agent Command" configuration option on the agent
 configuration._
 
-_C. Configure a .profile file containing a call to /usr/bin/prepare-env in the home
+_`C.` Configure a .profile file containing a call to /usr/bin/prepare-env in the home
 directory of the OS user which runs the agent process._
 
-_D. Add a shell step to each Job tied to this agent to execute the shell script._
+_`D.` Add a shell step to each Job tied to this agent to execute the shell script._
 
 
 3. Suppose you are asked to obtain the config.xml of a folder (myFolder) from a script or HTTP client using the Jenkins Remote API. The folder exists at the root of a Jenkins
 master. Which URL pattern is correct for obtaining this configuration file?
 
-_A. root/job/myFolder/config.xml_
+_`A.` root/job/myFolder/config.xml_
 
-_B. root/folder/myFolder/config.xml_
+_`B.` root/folder/myFolder/config.xml_
 
-_C. root/myFolder/config.xml_
+_`C.` root/myFolder/config.xml_
 
-_D. root/myFolder?param=config.xml_
+_`D.` root/myFolder?param=config.xml_
 
-_E. root/api/getConfig?source=myFolder_
+_`E.` root/api/getConfig?source=myFolder_
 
 
 4. What architecture is recommended by the Jenkins Cookbook for a scalable Jenkins
 environment?
 
-_A. Distributed Builds Architecture_
+_`A.` Distributed Builds Architecture_
 
-_B. Central Master Architecture_
+_`B.` Central Master Architecture_
 
-_C. Automatic Builds Architecture_
+_`C.` Automatic Builds Architecture_
 
-_D. Manual Polling Architecture_
+_`D.` Manual Polling Architecture_
 
-_E. One-Shot Build Architecture_
+_`E.` One-Shot Build Architecture_
 
 
 5. In a Cluster Operations Job, which THREE of the following steps can be applied to a
 Client Master only?
 
-_A. Install Jenkins_
+_`A.` Install Jenkins_
 
-_B. Upgrade Jenkins_
+_`B.` Upgrade Jenkins_
 
-_C. Upgrade all plugins_
+_`C.` Upgrade all plugins_
 
-_D. Install plugin_
+_`D.` Install plugin_
 
-_E. Uninstall Jenkins_
+_`E.` Uninstall Jenkins_
 
 
 Answers to Sample Questions:
 
-_1. C_
-
-_2. B_
-
-_3. A_
-
-_4. A_
-
-_5. B, C, D_
+```
+1. C
+2. B
+3. A
+4. A
+5. B, C, D
+```
