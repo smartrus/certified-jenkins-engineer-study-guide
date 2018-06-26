@@ -78,3 +78,113 @@ of specific plugins (e.g., “Build Pipeline plugin”).
 ![Rustem Certified Jenkins Engineer](https://github.com/smartrus/certified-jenkins-engineer-study-guide/blob/master/images/rustem_certified_jenkins_engineer2.png)
 
 ![Rustem Certified Jenkins Engineer](https://github.com/smartrus/certified-jenkins-engineer-study-guide/blob/master/images/rustem_certified_jenkins_engineer3.png)
+
+## 1. Key CI/CD/Jenkins Concepts
+
+_This topic comprises approximately 18% of the exam. Questions cover the following
+topics:_
+* Continuous Delivery/Continuous Integration Concepts
+  * Define continuous integration, continuous delivery, continuous deployment
+  * Difference between CI and CD
+  * Stages of CI and CD
+  * Continuous delivery versus continuous deployment
+* Jobs
+  * What are jobs in Jenkins?
+  * Types of jobs
+  * Scope of jobs
+* Builds
+  * What are builds in Jenkins?
+  * What are build steps, triggers, artifacts, and repositories?
+  * Build tools configuration
+* Source Code Management
+  * What are source code management systems and how are they used?
+  * Cloud-based SCMs
+  * Jenkins changelogs
+  * Incremental updates v clean check out
+  * Checking in code
+  * Infrastructure-as-Code
+  * Branch and Merge Strategies
+* Testing
+  * Benefits of testing with Jenkins
+  * Define unit test, smoke test, acceptance test, automated verification/functional
+tests
+* Notifications
+  * Types of notifications in Jenkins
+  * Importance of notifications
+* Distributed Builds
+  * What are distributed builds?
+  * Functions of masters and agents
+* Plugins
+  * What are plugins?
+  * What is the plugin manager?
+* Jenkins Rest API
+  * How to interact with it
+  * Why use it?
+* Security
+  * Authentication versus authorization
+  * Matrix security
+  * Definition of auditing, credentials, and other key security concepts
+* Fingerprints
+  * What are fingerprints?
+  * How do fingerprints work?
+* Artifacts
+  * How to use artifacts in Jenkins
+  * Storing artifacts
+* Using 3rd party tools
+  * How to use 3rd party tools
+* Installation Wizard [new]
+  * What is the Jenkins Installation Wizard?
+  * How to use the Wizard?
+  * Which configurations are covered by the Installation Wizard?
+
+These online resources provide entry points to understanding the above topics:
+
+* http://www.martinfowler.com
+  * Continuous Integration
+  * Continuous Delivery
+  * Deployment Pipeline
+* http://www.informit.com
+  * CD Pipeline Anatomy
+* http://devops.com
+  * What is a CD pipeline
+* https://jaxenter.com
+  * Implementing Continuous Delivery
+* http://www.infoq.com
+  * Orchestrating Pipelines Jenkins
+* http://technologyconversations.com
+  * Continuous Delivery Introduction to Concepts and Tools
+* https://en.wikipedia.org
+  * Continuous delivery
+  * Artifact software development
+  * Build automation
+  * Distributed version control
+  * List of version control software
+  * Smoke testing (software)
+* https://jenkins.io [new]
+  * Jenkins Installation and Setup [new]
+  * Jenkins Documentation [new]
+  * Jenkins Pipeline [new]
+  * Jenkins HandBook [new]
+  * https://plugins.jenkins.io [new]
+* https://www.safaribooksonline.com
+  * Jenkins the Definitive Guide
+* https://wiki.jenkins-ci.org
+  * Administering Jenkins
+  * Terminology
+  * Extreme feedback lamp switch gear style
+  * Distributed builds: Offline status and retention strategy
+  * Remoting issue
+  * Remote access API
+  * Matrix based security
+  * Securing Jenkins
+  * Quick and Simple Security
+* http://docs.openstack.org
+  * Jenkins job builder
+* https://www.simple-talk.com
+  * Branching and merging
+* http://stackoverflow.com
+  * What is unit test, integration test, smoke test, regression test?
+* https://www.cloudbees.com/
+  * Notifications
+* http://searchsecurity.techtarget.com/
+  * Authentication authorization and accounting
