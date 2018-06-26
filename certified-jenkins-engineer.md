@@ -72,9 +72,9 @@ _Please also note the following:_
 of specific plugins (e.g., “Build Pipeline plugin”).
 * Various UI elements in Jenkins will be referred to using the following terms:
 
-![Rustem Certified Jenkins Engineer](https://github.com/smartrus/certified-jenkins-engineer-study-guide/rustem_certified_jenkins_engineer1.png)
+![Rustem Certified Jenkins Engineer](https://github.com/smartrus/certified-jenkins-engineer-study-guide/images/rustem_certified_jenkins_engineer1.png)
 
 
-![Rustem Certified Jenkins Engineer](https://github.com/smartrus/certified-jenkins-engineer-study-guide/rustem_certified_jenkins_engineer2.png)
+![Rustem Certified Jenkins Engineer](https://github.com/smartrus/certified-jenkins-engineer-study-guide/images/rustem_certified_jenkins_engineer2.png)
 
-![Rustem Certified Jenkins Engineer](https://github.com/smartrus/certified-jenkins-engineer-study-guide/rustem_certified_jenkins_engineer3.png)
+![Rustem Certified Jenkins Engineer](https://github.com/smartrus/certified-jenkins-engineer-study-guide/images/rustem_certified_jenkins_engineer3.png)
