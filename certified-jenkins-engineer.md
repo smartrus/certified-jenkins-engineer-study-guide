@@ -401,9 +401,13 @@ _E. root/api/getConfig?source=myFolder_
 environment?
 
 _A. Distributed Builds Architecture_
+
 _B. Central Master Architecture_
+
 _C. Automatic Builds Architecture_
+
 _D. Manual Polling Architecture_
+
 _E. One-Shot Build Architecture_
 
 
