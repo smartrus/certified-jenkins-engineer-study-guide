@@ -355,7 +355,7 @@ _These online resources provide entry points to understanding the above topics:_
 
 ## Sample Questions
 
-_1. By definition, what does a Continuous Delivery pipeline consist of?_
+1. By definition, what does a Continuous Delivery pipeline consist of?
 
 _A. Backlog items_
 
@@ -368,8 +368,8 @@ _D. Tickets_
 _E. Commitments_
 
 
-_2. You need to execute a shell script (/usr/bin/prepare-env) just before a Linux
-agent is started. How do you achieve this?_
+2. You need to execute a shell script (/usr/bin/prepare-env) just before a Linux
+agent is started. How do you achieve this?
 
 _A. Use the "Suffix Start Agent Command" configuration option on the agent
 configuration._
@@ -383,8 +383,8 @@ directory of the OS user which runs the agent process._
 _D. Add a shell step to each Job tied to this agent to execute the shell script._
 
 
-_3. Suppose you are asked to obtain the config.xml of a folder (myFolder) from a script or HTTP client using the Jenkins Remote API. The folder exists at the root of a Jenkins
-master. Which URL pattern is correct for obtaining this configuration file?_
+3. Suppose you are asked to obtain the config.xml of a folder (myFolder) from a script or HTTP client using the Jenkins Remote API. The folder exists at the root of a Jenkins
+master. Which URL pattern is correct for obtaining this configuration file?
 
 _A. root/job/myFolder/config.xml_
 
@@ -397,8 +397,8 @@ _D. root/myFolder?param=config.xml_
 _E. root/api/getConfig?source=myFolder_
 
 
-_4. What architecture is recommended by the Jenkins Cookbook for a scalable Jenkins
-environment?_
+4. What architecture is recommended by the Jenkins Cookbook for a scalable Jenkins
+environment?
 
 _A. Distributed Builds Architecture_
 _B. Central Master Architecture_
@@ -407,8 +407,8 @@ _D. Manual Polling Architecture_
 _E. One-Shot Build Architecture_
 
 
-_5. In a Cluster Operations Job, which THREE of the following steps can be applied to a
-Client Master only?_
+5. In a Cluster Operations Job, which THREE of the following steps can be applied to a
+Client Master only?
 
 _A. Install Jenkins_
 
@@ -421,7 +421,7 @@ _D. Install plugin_
 _E. Uninstall Jenkins_
 
 
-_Answers to Sample Questions:_
+Answers to Sample Questions:
 
 _1. C_
 
