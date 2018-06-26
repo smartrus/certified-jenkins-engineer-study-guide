@@ -140,61 +140,61 @@ tests
 These online resources provide entry points to understanding the above topics:
 
 * http://www.martinfowler.com
-  * Continuous Integration
-  * Continuous Delivery
-  * Deployment Pipeline
+  * [Continuous Integration](http://www.martinfowler.com/articles/continuousIntegration.html)
+  * [Continuous Delivery](http://martinfowler.com/bliki/ContinuousDelivery.html)
+  * [Deployment Pipeline](http://martinfowler.com/bliki/DeploymentPipeline.html)
 * http://www.informit.com
-  * CD Pipeline Anatomy
+  * [CD Pipeline Anatomy](http://www.informit.com/articles/article.aspx?p=1621865&seqNum=2)
 * http://devops.com
-  * What is a CD pipeline
+  * [What is a CD pipeline](http://devops.com/2014/07/29/continuous-delivery-pipeline/)
 * https://jaxenter.com
-  * Implementing Continuous Delivery
+  * [Implementing Continuous Delivery](https://jaxenter.com/implementing-continuous-delivery-117916.html)
 * http://www.infoq.com
-  * Orchestrating Pipelines Jenkins
+  * [Orchestrating Pipelines Jenkins](http://www.infoq.com/articles/orch-pipelines-jenkins)
 * http://technologyconversations.com
-  * Continuous Delivery Introduction to Concepts and Tools
+  * [Continuous Delivery Introduction to Concepts and Tools](http://technologyconversations.com/2014/04/29/continuous-delivery-introduction-to-concepts-and-tools/)
 * https://en.wikipedia.org
-  * Continuous delivery
-  * Artifact software development
-  * Build automation
-  * Distributed version control
-  * List of version control software
-  * Smoke testing (software)
+  * [Continuous delivery](https://en.wikipedia.org/wiki/Continuous_delivery)
+  * [Artifact software development](https://en.wikipedia.org/wiki/Artifact_%28software_development%29)
+  * [Build automation](https://en.wikipedia.org/wiki/Build_automation)
+  * [Distributed version control](https://en.wikipedia.org/wiki/Distributed_version_control)
+  * [List of version control software](https://en.wikipedia.org/wiki/List_of_version_control_software)
+  * [Smoke testing software](https://en.wikipedia.org/wiki/Smoke_testing_(software))
 * https://jenkins.io [new]
-  * Jenkins Installation and Setup [new]
-  * Jenkins Documentation [new]
-  * Jenkins Pipeline [new]
-  * Jenkins HandBook [new]
+  * [Jenkins Installation and Setup](https://jenkins.io/download/) [new]
+  * [Jenkins Documentation](https://jenkins.io/doc/) [new]
+  * [Jenkins Pipeline](https://jenkins.io/doc/book/pipeline/) [new]
+  * [Jenkins HandBook](https://jenkins.io/doc/book/) [new]
   * https://plugins.jenkins.io [new]
 * https://www.safaribooksonline.com
-  * Jenkins the Definitive Guide
+  * [Jenkins the Definitive Guide](https://www.safaribooksonline.com/library/view/jenkins-the-definitive/9781449311155/ch05.html)
 * https://wiki.jenkins-ci.org
-  * Administering Jenkins
-  * Terminology
-  * Extreme feedback lamp switch gear style
-  * Distributed builds: Offline status and retention strategy
-  * Remoting issue
-  * Remote access API
-  * Matrix based security
-  * Securing Jenkins
-  * Quick and Simple Security
+  * [Administering Jenkins](https://wiki.jenkins-ci.org/display/JENKINS/Administering+Jenkins)
+  * [Terminology](https://wiki.jenkins-ci.org/display/JENKINS/Terminology)
+  * [Extreme feedback lamp switch gear style](http://jenkins-ci.org/content/extreme-feedback-lamp-switch-gear-style)
+  * [Distributed builds: Offline status and retention strategy](https://wiki.jenkins-ci.org/display/JENKINS/Distributed+builds#Distributedbuilds-Offlinestatusandretentionstrategy)
+  * [Remoting issue](https://wiki.jenkins-ci.org/display/JENKINS/Remoting+issue)
+  * [Remote access API](https://wiki.jenkins-ci.org/display/JENKINS/Remote+access+API)
+  * [Matrix based security](https://wiki.jenkins-ci.org/display/JENKINS/Matrix-based+security)
+  * [Securing Jenkins](https://wiki.jenkins-ci.org/display/JENKINS/Securing+Jenkins)
+  * [Quick and Simple Security](https://wiki.jenkins-ci.org/display/JENKINS/Quick+and+Simple+Security)
 * http://docs.openstack.org
-  * Jenkins job builder
+  * [Jenkins job builder](http://docs.openstack.org/infra/jenkins-job-builder/triggers.html)
 * https://www.simple-talk.com
-  * Branching and merging
+  * [Branching and merging](https://www.simple-talk.com/opinion/opinion-pieces/branching-and-merging-ten-pretty-good-practices/)
 * http://stackoverflow.com
-  * What is unit test, integration test, smoke test, regression test?
+  * [What is unit test, integration test, smoke test, regression test?](http://stackoverflow.com/questions/520064/what-is-unit-test-integration-test-smoke-test-regression-test)
 * https://www.cloudbees.com/
-  * Notifications
+  * [Notifications](https://www.cloudbees.com/)
 * http://searchsecurity.techtarget.com/
-  * Authentication authorization and accounting
+  * [Authentication authorization and accounting](http://searchsecurity.techtarget.com/definition/authentication-authorization-and-accounting)
 
 ## 2. Jenkins usage (features and functionality)
 
 This topic comprises approximately 23% of the exam. Questions cover the following
 topics:
 * Jobs
-o Organizing jobs in Jenkins
+  * Organizing jobs in Jenkins
   * Parameterized jobs
   * Usage of Freestyle/Pipeline/Matrix jobs
 * Builds
@@ -247,11 +247,11 @@ o Organizing jobs in Jenkins
 _These online resources provide entry points to understanding the above topics:_
 
 * https://wiki.jenkins-ci.org
-  * Distributed builds
-  * Post-initialization script
-  * Features controlled by system properties
+  * [Distributed builds](https://wiki.jenkins-ci.org/display/JENKINS/Distributed+builds)
+  * [Post-initialization script](https://wiki.jenkins-ci.org/display/JENKINS/Post-initialization+script)
+  * [Features controlled by system properties](https://wiki.jenkins-ci.org/display/JENKINS/Features+controlled+by+system+properties)
 * http://blog.cloudbees.com
-  * Parallelism and Distributed Builds with Jenkins
+  * [Parallelism and Distributed Builds with Jenkins](https://www.cloudbees.com/blog/parallelism-and-distributed-builds-jenkins)
 
 ## 3. Building Continuous Delivery (CD) Pipelines
 
@@ -307,27 +307,27 @@ information, etc.)
 _These online resources provide entry points to understanding the above topics:_
 
 * https://jenkins.io/ [new]
-  * Handbook [new]
-  * Pipeline [new]
-  * Pipeline Global Shared Libraries [new]
-  * Pipeline Multibranch [new]
-  * Controlling the Flow with Stage, Lock, and Milestone [new]
+  * [Handbook](https://jenkins.io/doc/book/) [new]
+  * [Pipeline](https://jenkins.io/doc/book/pipeline/) [new]
+  * [Pipeline Global Shared Libraries](https://jenkins.io/doc/book/pipeline/shared-libraries/) [new]
+  * [Pipeline Multibranch](https://jenkins.io/doc/book/pipeline/multibranch/) [new]
+  * [Controlling the Flow with Stage, Lock, and Milestone](https://jenkins.io/blog/2016/10/16/stage-lock-milestone/) [new]
 * https://plugin.jenkins.io/ [new]
-  * Pipeline Plugin 2.4 [new]
-* CloudBees Knowledgebase
-  * Injecting Secrets into Jenkins Build Jobs
+  * [Pipeline Plugin 2.4](https://plugins.jenkins.io/workflow-aggregator#PipelinePlugin-2.4%28Sep21%2C2016%29) [new]
+* [CloudBees Knowledgebase](https://support.cloudbees.com/hc/en-us)
+  * [Injecting Secrets into Jenkins Build Jobs](https://support.cloudbees.com/hc/en-us/articles/203802500-Injecting-Secrets-into-Jenkins-Build-Jobs)
 * https://www.cloudbees.com
-  * Credentials API Jenkins
-* CloudBees Documentation
-  * List views
+  * [Credentials API Jenkins](https://www.cloudbees.com/blog/credentials-api-jenkins)
+* [CloudBees Documentation](https://go.cloudbees.com/doc/index.html)
+  * [List views](https://go.cloudbees.com/docs/cloudbees-documentation/cje-user-guide/index.html#_list_views?query=view)
 * https://github.com
-  * confab
-  * help-spec
-  * pause and resume execution
-  * Executor Step Test
-  * Write File Step
+  * [confab](https://github.com/jenkinsci/jenkins/blob/3537831a42cd5b3b27a41fcde9b1f201962f38a1/core/src/main/grammar/crontab.g#L68-L71)
+  * [help-spec](https://github.com/jenkinsci/jenkins/blob/3537831a42cd5b3b27a41fcde9b1f201962f38a1/core/src/main/resources/hudson/triggers/TimerTrigger/help-spec.html#L45-L46)
+  * [pause and resume execution](https://github.com/jenkinsci/workflow-plugin/blob/feb5bf44573dfc9379d9551f12b0372907e787be/README.md#pause-and-resume-execution)
+  * [Executor Step Test](https://github.com/jenkinsci/workflow-plugin/blob/feb5bf44573dfc9379d9551f12b0372907e787be/aggregator/src/test/java/org/jenkinsci/plugins/workflow/steps/ExecutorStepTest.java#L165-L214)
+  * [Write File Step](https://github.com/jenkinsci/workflow-plugin/blob/e0263fc7275e804785e4e93054ef0f2f2945a2dc/basic-steps/src/main/resources/org/jenkinsci/plugins/workflow/steps/WriteFileStep/help.html#L1)
 * http://wiki.jenkins-ci.org
-  * Jenkins CLI
+  * [Jenkins CLI](https://wiki.jenkins-ci.org/display/JENKINS/Jenkins+CLI)
 
 ## 4. CD-as-Code Best Practices
 
@@ -345,13 +345,13 @@ topics:_
 _These online resources provide entry points to understanding the above topics:_
 
 * http://go.cloudbees.com
-  * Cookbook
-  * Distributed Builds Architecture
-  * Choosing the Right Hardware
-  * Architecting for Scale
-  * Pipeline as Code (formerly “Workflow as Code”)
+  * [Cookbook](https://go.cloudbees.com/docs/cloudbees-documentation/cookbook/book.html)
+  * [Distributed Builds Architecture](https://go.cloudbees.com/docs/cloudbees-documentation/cookbook/book.html#_distributed_builds_architecture)
+  * [Choosing the Right Hardware](https://go.cloudbees.com/docs/cloudbees-documentation/cookbook/book.html#_choosing_the_right_hardware_for_masters)
+  * [Architecting for Scale](https://go.cloudbees.com/docs/cloudbees-documentation/cookbook/book.html#_architecting_for_scale)
+  * [Pipeline as Code formerly Workflow as Code](https://go.cloudbees.com/docs/cloudbees-documentation/cookbook/book.html#pipeline-as-code)
 * http://wiki.jenkins-ci.org
-  * Remoting
+  * [Remoting](https://wiki.jenkins-ci.org/display/JENKINS/Remoting+issue)
 
 ## Sample Questions
 
