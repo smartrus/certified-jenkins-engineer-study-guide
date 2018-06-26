@@ -79,7 +79,7 @@ of specific plugins (e.g., “Build Pipeline plugin”).
 
 ![Rustem Certified Jenkins Engineer](https://github.com/smartrus/certified-jenkins-engineer-study-guide/blob/master/images/rustem_certified_jenkins_engineer3.png)
 
-## 1. Key CI/CD/Jenkins Concepts
+## 1. Key CI/CD/Jenkins Concepts - 18%
 
 _This topic comprises approximately 18% of the exam. Questions cover the following
 topics:_
@@ -189,7 +189,7 @@ These online resources provide entry points to understanding the above topics:
 * http://searchsecurity.techtarget.com/
   * [Authentication authorization and accounting](http://searchsecurity.techtarget.com/definition/authentication-authorization-and-accounting)
 
-## 2. Jenkins usage (features and functionality)
+## 2. Jenkins usage (features and functionality) - 23%
 
 This topic comprises approximately 23% of the exam. Questions cover the following
 topics:
@@ -253,7 +253,7 @@ _These online resources provide entry points to understanding the above topics:_
 * http://blog.cloudbees.com
   * [Parallelism and Distributed Builds with Jenkins](https://www.cloudbees.com/blog/parallelism-and-distributed-builds-jenkins)
 
-## 3. Building Continuous Delivery (CD) Pipelines
+## 3. Building Continuous Delivery (CD) Pipelines - 16%
 
 _This topic comprises approximately 16% of the exam. Questions cover the following
 topics:_
@@ -329,7 +329,7 @@ _These online resources provide entry points to understanding the above topics:_
 * http://wiki.jenkins-ci.org
   * [Jenkins CLI](https://wiki.jenkins-ci.org/display/JENKINS/Jenkins+CLI)
 
-## 4. CD-as-Code Best Practices
+## 4. CD-as-Code Best Practices - 10%
 
 _This topic comprises approximately 10% of the exam. Questions cover the following
 topics:_
