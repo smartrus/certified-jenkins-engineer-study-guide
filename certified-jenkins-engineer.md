@@ -84,9 +84,72 @@ topics:
 
 * Continuous Delivery/Continuous Integration Concepts
   * Define continuous integration, continuous delivery, continuous deployment
+
+_Continuous Integration is a software development practice where members of a team integrate their work frequently, usually each person integrates at least daily - leading to multiple integrations per day. Each integration is verified by an automated build (including test) to detect integration errors as quickly as possible. Many teams find that this approach leads to significantly reduced integration problems and allows a team to develop cohesive software more rapidly. This article is a quick overview of Continuous Integration summarizing the technique and its current usage._
+
+_Continuous Delivery is a software development discipline where you build software in such a way that the software can be released to production at any time._
+
+_Continuous Deployment means that every change goes through the pipeline and automatically gets put into production, resulting in many production deployments every day._
+
   * Difference between CI and CD
+
+[Quora QA](https://www.quora.com/What-is-the-difference-between-continuous-integration-and-continuous-deployment)
+
+_Continuous Integration is a core technique where everyone commits every day and code is integrated early and often. This improves frequency and reduces difficulty._
+
+_Continuous delivery takes this a step further. This is essentially the same as CI with one crucial difference: it allows us to deploy to production with a manual step, like the tap of a button._
+
+_What is great about this solution, is that everybody on the team can deploy; a project manager, a tester or the product owner. This is because there are no weird, secret dev-only procedures._
+
+_If you want a 100% automated process, you need to make the jump to what is commonly called Continuous Deployment. With this in place, nobody needs to touch a button to have a working build deployed – every step is automated!_
+
+_Continuous Integration usually refers to integrating, building, and testing code within the development environment. Continuous Delivery builds on this, dealing with the final stages required for production deployment._
+
   * Stages of CI and CD
+
+_CI Practices:_
+
+1. _Maintain a Single Source Repository._
+1. _Automate the Build_
+1. _Make Your Build Self-Smoke_testing_
+1. _Everyone Commits To the Mainline Every Day_
+1. _Every Commit Should Build the Mainline on an Integration Machine_
+1. _Fix Broken Builds Immediately_
+1. _Keep the Build Fast_
+1. _Test in a Clone of the Production Environment_
+1. _Make it Easy for Anyone to Get the Latest Executable_
+1. _Everyone can see what's happening_
+
+_CD stages:_
+
+[A typical CI/CD pipeline explained](https://www.michielrook.nl/2018/01/typical-ci-cd-pipeline-explained/)
+
+_The actual list of steps depends highly on the language and platform used, but typically consists of (at least) checkout, compilation and running unit tests. Some pipelines also add steps to perform code analysis and run additional tests (such as integration tests)._
+
+![Rustem Certified Jenkins Engineer](https://github.com/smartrus/certified-jenkins-engineer-study-guide/blob/master/images/rustem_ci_cd_pipeline1.png)
+
+_When all these steps are successful, a unique artifact is built, packaged, and published to a repository. This can be a JAR, .tar.gz file, a container image, or whatever is applicable to the chosen language and platform._
+
+_Some pipelines deploy the generated artifact to a test environment, to run additional checks._
+
+_Next, the artifact is deployed to staging/acceptance (or whatever you want to call it, the environment should be equivalent to production) and verified._
+
+_Now this is where Continuous Delivery and Continuous Deployment will start to diverge. If you want to do the former, there will be a manual gate, usually in the form of a button or similar. Pressing the button is required to “promote” an artifact to production._
+
+_When and what to promote is a choice. Promotion typically happens when a build is considered to be “good enough”. QA has run their tests, the Product Owner has signed off, etc. This means that not all artifacts make it to production!_
+
+_Continuous Deployment gets rid of the manual gate and fully relies on automatic verification of the acceptance environment to determine whether the pipeline can continue on to production. Production, in turn, is verified in the same way._
+
+![Rustem Certified Jenkins Engineer](https://github.com/smartrus/certified-jenkins-engineer-study-guide/blob/master/images/rustem_ci_cd_pipeline2.png)
+
+_Automation in general, and test automation specifically, is a crucial aspect of any CI/CD process and pipeline. Automatic verification is used in all stages, to validate artifacts, deployments, etc._
+
+_The goal of test automation is to catch known problems. Exploratory testing, usability reports, customer feedback, etc. helps us to identify the unknown issues, at which point automated tests can be adjusted to cover whatever’s been found._
+
   * Continuous delivery versus continuous deployment
+
+_Continuous Delivery just means that you are able to do frequent deployments but may choose not to do it, usually due to businesses preferring a slower rate of deployment. In order to do Continuous Deployment you must be doing Continuous Delivery._
+
 * Jobs
   * What are jobs in Jenkins?
   * Types of jobs
