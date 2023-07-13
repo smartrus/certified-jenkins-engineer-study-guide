@@ -1,6 +1,6 @@
 # Study Guide for Certified Jenkins Engineer exam
 
-> The outline is copied from [Certified Jenkins Engineer (CJE) 2017 Study Guide](https://www.cloudbees.com/sites/default/files/cje-study-guide-2017.pdf). The rest of information is taken from [Jenkins User Documentation](https://jenkins.io/doc/).
+> The outline is copied from [Certified Jenkins Engineer (CJE) 2017 Study Guide](https://www.cloudbees.com/sites/default/files/cje-study-guide-2017.pdf). The rest of the information is taken from [Jenkins User Documentation](https://jenkins.io/doc/).
 
 The Certified Jenkins Engineer (CJE) exam consists of 60 multiple-choice questions
 testing knowledge of open-source Jenkins.
