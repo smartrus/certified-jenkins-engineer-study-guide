@@ -1,5 +1,10 @@
 # Certified Jenkins Engineer study guide
 
+I do consultancy at:
+* [DevOps Consulting](https://devsecops.ae)
+* [Kubernetes Consulting](https://kubernetes.ae)
+* [Blockchain Consulting](https://ledgers.ae)
+
 My notes taken while I was preparing for my Certified Jenkins Engineer exam
 
 For my notes please follow the link:
